@@ -1,0 +1,83 @@
+body{
+  background-color: "#A18262";
+}
+
+.App {
+    text-align: center;
+  }
+  
+  body{
+    background-color: #A18262;
+  }
+  
+
+  .note {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .note.important {
+    background-color: red;
+    color: white;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    align-self: flex-end;
+  }
+  
+  .bg-warning {
+    background-color: #ffeb3b !important;
+  }
+  
+  .bg-danger {
+    background-color: #f44336 !important;
+    color: white;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  /* Agrega un margen inferior al campo del título */
+  .form-group input {
+    margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+  }
